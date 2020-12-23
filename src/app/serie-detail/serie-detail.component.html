@@ -1,0 +1,7 @@
+<p>serie-detail works!</p>
+<mat-card *ngIf="(serie | async) as s">
+    Nyt spændende princip. DETAILJE ORIENTERERERETG!
+    <p>{{s.name}}</p>
+    <p>{{s.episodes}}</p>
+    <p>{{s.release}}</p>
+</mat-card>

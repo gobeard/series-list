@@ -1,0 +1,5 @@
+<p>series-list works!</p>
+
+<p *ngFor="let serie of series | async">
+    <app-series-list-item [serie]="serie"></app-series-list-item>
+</p>
