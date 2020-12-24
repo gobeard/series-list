@@ -20,4 +20,12 @@ export class SeriesService {
   postSerie(serie: Serie) {
     return this.http.post<Serie>("http://localhost:5000/series", serie);
   }
+
+  removeSerie(id: number) {
+    return this.http.delete("http://localhost:5000/series/" + encodeURIComponent(id));
+  }
+
+  putSerie(id: number, serie: Serie) {
+    return this.http.put<Serie>("http://localhost:5000/series/" + encodeURIComponent(id), serie);
+  }
 }

@@ -18,6 +18,8 @@ import { SerieCreateComponent } from './serie-create/serie-create.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { SerieEditComponent } from './serie-edit/serie-edit.component';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { MatButtonModule } from '@angular/material/button';
     SeriesListComponent,
     SeriesListItemComponent,
     SerieDetailComponent,
-    SerieCreateComponent
+    SerieCreateComponent,
+    SerieEditComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatFormFieldModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
