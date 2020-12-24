@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Serie } from '../serie';
-import { SeriesService } from '../series.service';
+import { SeriesService } from '../../shared/services/series.service';
 
 @Component({
   selector: 'app-series-list',

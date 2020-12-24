@@ -1,5 +1,5 @@
-<p>series-list works!</p>
-
-<p *ngFor="let serie of series | async">
-    <app-series-list-item [serie]="serie"></app-series-list-item>
-</p>
+<mat-grid-list cols="3" rowHeight="3:1">
+    <mat-grid-tile *ngFor="let serie of series | async">
+        <app-series-list-item [serie]="serie"></app-series-list-item>
+    </mat-grid-tile>
+</mat-grid-list>

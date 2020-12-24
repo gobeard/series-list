@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SeriesService } from './series.service';
+import { SeriesService } from '../shared/services/series.service';
 
 describe('SeriesService', () => {
   let service: SeriesService;

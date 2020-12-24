@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Serie } from '../series/serie';
-import { SeriesService } from '../series/series.service';
+import { SeriesService } from '../shared/services/series.service';
 
 @Component({
   selector: 'app-serie-detail',
